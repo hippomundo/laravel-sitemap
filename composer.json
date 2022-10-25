@@ -1,7 +1,7 @@
 {
-    "name": "laravelium/sitemap",
-    "description": "Laravelium Sitemap package for Laravel.",
-    "homepage": "https://laravelium.com",
+    "name": "hippomundo/sitemap",
+    "description": "A maintained fork of the Laravelium Sitemap package for Laravel.",
+    "homepage": "https://www.hippomundo.com",
     "keywords": ["laravelium", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [
@@ -10,20 +10,26 @@
             "email": "r@alfamatter.com",
             "role": "Developer",
             "homepage": "https://darumen.com"
+        },
+        {
+            "name": "Koen Calliauw",
+            "email": "koen.calliauw@hippomundo.com",
+            "role": "Developer",
+            "homepage": "https://www.hippomundo.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/Laravelium/laravel-sitemap/issues",
-        "source": "https://github.com/Laravelium/laravel-sitemap",
-        "wiki": "https://github.com/Laravelium/laravel-sitemap/wiki"
+        "issues": "https://github.com/hippomundo/laravel-sitemap/issues",
+        "source": "https://github.com/hippomundo/laravel-sitemap",
+        "wiki": "https://github.com/hippomundo/laravel-sitemap/wiki"
     },
     "require": {
-        "php": ">=7.3",
-        "illuminate/support": "^8.0",
-        "illuminate/filesystem": "^8.0"
+        "php": ">=8.0",
+        "illuminate/support": "^9.0",
+        "illuminate/filesystem": "^9.0"
     },
     "require-dev": {
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^9.0",
         "phpunit/phpunit": "^9.3",
         "orchestra/testbench-core": "^6.0",
         "php-coveralls/php-coveralls" : "^2.2"
