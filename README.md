@@ -1,84 +1,94 @@
 # **[Laravelium Sitemap](https://laravelium.com) package**
 
-[![License](https://poser.pugx.org/laravelium/sitemap/license)](https://packagist.org/packages/laravelium/sitemap) [![PHP tests](https://github.com/Laravelium/laravel-sitemap/workflows/PHP%20tests/badge.svg?branch=master)](https://github.com//Laravelium/laravel-sitemap/actions?query=workflow%3A%22PHP+tests%22) [![Maintainability](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/maintainability)](https://codeclimate.com/github/Laravelium/laravel-sitemap/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/test_coverage)](https://codeclimate.com/github/Laravelium/laravel-sitemap/test_coverage) [![Style Status](https://github.styleci.io/repos/10392044/shield?style=normal&branch=master)](https://github.styleci.io/repos/10392044) [![Latest Stable Version](https://poser.pugx.org/laravelium/sitemap/v/stable)](https://packagist.org/packages/laravelium/sitemap) [![Total Downloads](https://poser.pugx.org/laravelium/sitemap/downloads)](https://packagist.org/packages/laravelium/sitemap)
+[![License](https://poser.pugx.org/hippomundo/sitemap/license)](https://packagist.org/packages/hippomundo/sitemap) [![PHP tests](https://github.com/hippomundo/laravel-sitemap/workflows/PHP%20tests/badge.svg?branch=master)](https://github.com//hippomundo/laravel-sitemap/actions?query=workflow%3A%22PHP+tests%22) [![Maintainability](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/maintainability)](https://codeclimate.com/github/hippomundo/laravel-sitemap/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/test_coverage)](https://codeclimate.com/github/hippomundo/laravel-sitemap/test_coverage) [![Style Status](https://github.styleci.io/repos/10392044/shield?style=normal&branch=master)](https://github.styleci.io/repos/10392044) [![Latest Stable Version](https://poser.pugx.org/hippomundo/sitemap/v/stable)](https://packagist.org/packages/hippomundo/sitemap) [![Total Downloads](https://poser.pugx.org/hippomundo/sitemap/downloads)](https://packagist.org/packages/hippomundo/sitemap)
 
 *Laravelium Sitemap generator for Laravel.*
 
 ## Notes
 
 - Dev Branches are for development and are **UNSTABLE** (*use on your own risk*)!
+- To avoid you needing to refactor existing code, we maintained the Laravelium namespace on this fork
 
 ## Installation
 
-Run the following command and provide the latest stable version (e.g v8.\*) :
+Run the following command and provide the latest stable version (e.g v9.\*) :
 
 ```bash
-composer require laravelium/sitemap
+composer require hippomundo/sitemap
 ```
 
 *or add the following to your `composer.json` file :*
 
-#### For Laravel 8
+#### For Laravel 9
 ```json
-"laravelium/sitemap": "8.*"
+"hippomundo/sitemap": "9.*"
 ```
 (development branch)
 ```json
-"laravelium/sitemap": "8.x-dev"
+"hippomundo/sitemap": "9.x-dev"
+```
+
+#### For Laravel 8
+```json
+"hippomundo/sitemap": "8.*"
+```
+(development branch)
+```json
+"hippomundo/sitemap": "8.x-dev"
 ```
 
 #### For Laravel 7
 ```json
-"laravelium/sitemap": "7.*"
+"hippomundo/sitemap": "7.*"
 ```
 (development branch)
 ```json
-"laravelium/sitemap": "7.x-dev"
+"hippomundo/sitemap": "7.x-dev"
 ```
 
 #### For Laravel 6
 ```json
-"laravelium/sitemap": "6.*"
+"hippomundo/sitemap": "6.*"
 ```
 (development branch)
 ```json
-"laravelium/sitemap": "6.x-dev"
+"hippomundo/sitemap": "6.x-dev"
 ```
 
 #### For Laravel 5.8
 ```json
-"laravelium/sitemap": "3.1.*"
+"hippomundo/sitemap": "3.1.*"
 ```
 (development branch)
 ```json
-"laravelium/sitemap": "3.1.x-dev"
+"hippomundo/sitemap": "3.1.x-dev"
 ```
 
 #### For Laravel 5.7
 ```json
-"laravelium/sitemap": "3.0.*"
+"hippomundo/sitemap": "3.0.*"
 ```
 (development branch)
 ```json
-"laravelium/sitemap": "3.0.x-dev"
+"hippomundo/sitemap": "3.0.x-dev"
 ```
 
 #### For Laravel 5.6
 ```json
-"laravelium/sitemap": "2.8.*"
+"hippomundo/sitemap": "2.8.*"
 ```
 (development branch)
 ```json
-"laravelium/sitemap": "2.8.x-dev"
+"hippomundo/sitemap": "2.8.x-dev"
 ```
 
 #### For Laravel 5.5
 ```json
-"laravelium/sitemap": "2.7.*"
+"hippomundo/sitemap": "2.7.*"
 ```
 (development branch)
 ```json
-"laravelium/sitemap": "2.7.x-dev"
+"hippomundo/sitemap": "2.7.x-dev"
 ```
 
 *Publish needed assets (styles, views, config files) :*
@@ -102,7 +112,7 @@ and more in the [Wiki](https://github.com/Laravelium/laravel-sitemap/wiki).
 
 ## Contribution guidelines
 
-Before submiting new merge request or creating new issue, please read [contribution guidelines](https://gitlab.com/Laravelium/Sitemap/blob/master/CONTRIBUTING.md).
+Before submiting new merge request or creating new issue, please read [contribution guidelines](https://github.com/hippomundo/laravel-sitemap/blob/master/CONTRIBUTING.md).
 
 ## License
 
