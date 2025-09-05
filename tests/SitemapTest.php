@@ -9,6 +9,13 @@ use Laravelium\Sitemap\SitemapServiceProvider;
 class SitemapTest extends TestCase
 {
     /**
+     * Holds the latest response instance for Laravel’s testing helpers.
+     *
+     * @var \Illuminate\Testing\TestResponse|null
+     */
+    protected static ?\Illuminate\Testing\TestResponse $latestResponse = null;
+
+    /**
      * @var Sitemap
      */
     protected $sitemap;
