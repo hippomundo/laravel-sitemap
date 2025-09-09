@@ -42,6 +42,9 @@ class SitemapTest extends TestCase
     {
         parent::setUp();
 
+        restore_error_handler();
+        restore_exception_handler();
+
         $config = [
             'sitemap.use_cache'     => false,
             'sitemap.cache_key'     => 'Laravel.Sitemap.',
